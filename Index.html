@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Finder for African Students</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>Discover Scholarships Tailored For African Students</h1>
+            <p class="subtitle">Find the perfect scholarship opportunity to fund your education worldwide</p>
+            
+            <!-- Search Form -->
+            <div class="search-container">
+                <div class="search-box">
+                    <div class="form-group">
+                        <label for="country">Country of Origin</label>
+                        <select id="country" class="form-control">
+                            <option value="">Select Country</option>
+                            <!-- Countries will be populated by JavaScript -->
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="degree">Degree Level</label>
+                        <select id="degree" class="form-control">
+                            <option value="">Select Degree</option>
+                            <option value="undergraduate">Undergraduate</option>
+                            <option value="masters">Masters</option>
+                            <option value="phd">PhD</option>
+                            <option value="postdoc">Postdoctoral</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="field">Field of Study (Optional)</label>
+                        <input type="text" id="field" class="form-control" placeholder="e.g., Computer Science, Medicine">
+                    </div>
+                    
+                    <button id="search-btn" class="search-btn">
+                        <i class="fas fa-search"></i> Search Scholarships
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Filter/Sort Bar -->
+        <div class="filter-bar">
+            <div class="filters">
+                <div class="filter-group">
+                    <label>Funding Type:</label>
+                    <select id="funding-type" class="filter-select">
+                        <option value="">All</option>
+                        <option value="fully-funded">Fully Funded</option>
+                        <option value="partial">Partially Funded</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label>Sort By:</label>
+                    <select id="sort-by" class="filter-select">
+                        <option value="deadline">Deadline (Soonest)</option>
+                        <option value="newest">Newest</option>
+                        <option value="amount">Amount (Highest)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <section class="results-section">
+            <h2>Available Scholarships</h2>
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>Searching for scholarships...</p>
+            </div>
+            <div id="results-container" class="results-grid">
+                <!-- Scholarship cards will be inserted here by JavaScript -->
+            </div>
+            <div id="no-results" class="no-results" style="display: none;">
+                <i class="far fa-folder-open"></i>
+                <p>No scholarships found. Try adjusting your search criteria.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Saved Scholarships Section -->
+    <aside class="saved-section">
+        <div class="container">
+            <h2><i class="far fa-bookmark"></i> Saved Scholarships</h2>
+            <div id="saved-container" class="saved-list">
+                <p class="empty-message">Your saved scholarships will appear here</p>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Scholarship Details Modal -->
+    <div id="scholarship-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="modal-content">
+                <!-- Modal content will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Scholarship Finder for African Students | Data from <a href="https://rapidapi.com/" target="_blank" rel="noopener">RapidAPI</a></p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
