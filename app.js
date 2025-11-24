@@ -111,12 +111,12 @@ function getSampleScholarships() {
             university: 'Multiple Partner Universities',
             eligibility: 'African citizens with demonstrated financial need and leadership potential. Must meet university admission requirements.',
             requirements: ['Bachelor\'s degree for Masters', 'Academic transcripts', 'Recommendation letters', 'Personal statement'],
-    
+            benefits: ['Full tuition', 'Accommodation', 'Living expenses', 'Travel costs', 'Leadership development'],
             website: 'https://mastercardfdn.org/programs/scholars/'
         },
         {
             id: 3,
-            title: 'African Women in Science Scholarship', 
+            title: 'African Women in Science Scholarship',
             description: 'Scholarship for female African students pursuing STEM fields at the undergraduate or graduate level.',
             amount: 'Partial Funding',
             deadline: '2025-04-30',
@@ -144,9 +144,8 @@ function getSampleScholarships() {
             datePosted: '2024-11-20',
             university: 'Various German Universities',
             eligibility: 'Graduates from developing countries with at least two years of professional experience.',
-            requirements: ["Bachelor's degree", "2+ years work experience", "English/German language proficiency", "Motivation letter"],
-
-            benefits : ['Monthly payments', 'Travel allowance', 'Health insurance', 'Study and research subsidy'],
+            requirements: ['Bachelor\'s degree', '2+ years work experience', 'English/German language proficiency', 'Motivation letter'],
+            benefits: ['Monthly payments', 'Travel allowance', 'Health insurance', 'Study and research subsidy'],
             website: 'https://www.daad.de/en/study-and-research-in-germany/scholarships/'
         },
         {
