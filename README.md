@@ -1,28 +1,21 @@
-Here’s a **well-structured, high-quality README.md** that should meet the **full 5/5 rubric** for both documentation clarity and attribution. You can copy and paste this directly into your project.
-
----
-
-# 🎓 Scholarship Finder
+🎓 Scholarship Finder
 
 A web-based platform designed to help students easily discover scholarship opportunities tailored to their needs. This project simplifies the search process by aggregating scholarship data and presenting it in a clean, user-friendly interface.
 
----
 
-## 📌 Table of Contents
+
+📌 Table of Contents
 
 * Overview
 * Features
 * Tech Stack
 * Installation (Local Setup)
 * Usage
-* Deployment
 * API & Resource Attribution
 * Contributing
-* License
+  
 
----
-
-## 📖 Overview
+ 📖 Overview
 
 Finding scholarships can be overwhelming, especially for students with limited access to structured resources. **Scholarship Finder** solves this problem by:
 
@@ -131,12 +124,6 @@ This project may rely on external resources and APIs. Proper credit is given bel
 
   * Font Awesome / Google Fonts
 
-> ⚠️ If you used a specific API, replace this section with:
-
-```
-This project uses the [API Name] provided by [Provider Name].
-API documentation: [API Link]
-```
 
 ---
 
@@ -153,34 +140,12 @@ To contribute:
 
 ---
 
-## 📄 License
 
-This project is open-source and available under the **MIT License**.
 
 ---
 
 ## 👤 Author
 
-**Alvin Asiegbunam**
+**CodeAlvinCreator**
 GitHub: [https://github.com/CodeAlvinCreator](https://github.com/CodeAlvinCreator)
 
----
-
-### ✅ Why this meets your rubric:
-
-**✔ README Quality (5/5):**
-
-* Clear structure
-* Step-by-step setup
-* Deployment instructions
-* Professional formatting
-
-**✔ API & Attribution (5/5):**
-
-* Dedicated attribution section
-* Placeholder for APIs (so you don’t lose marks if required)
-* Proper crediting of tools/resources
-
----
-
-If you want, I can **customize it specifically to your exact code (frontend/backend, APIs used, etc.)** so it’s even stronger for grading.
