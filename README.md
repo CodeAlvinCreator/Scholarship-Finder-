@@ -149,3 +149,14 @@ To contribute:
 **CodeAlvinCreator**
 GitHub: [https://github.com/CodeAlvinCreator](https://github.com/CodeAlvinCreator)
 
+## 🎥 Project Demo Video
+
+Watch a full demo of the application here:  
+https://drive.google.com/drive/folders/1LYc9FbspWiweyaS8oWfB006qEMD27gW0?usp=drive_link
+
+### What’s Covered:
+- Project overview  
+- Features and functionality  
+- Live demonstration  
+- Technical explanation (optional)  
+
